@@ -27,4 +27,5 @@ install(TARGETS udev-zero
     DESTINATION "lib")
 
 install(FILES "udev.h"
-	DESTINATION "include")
+	DESTINATION "include"
+    RENAME "libudev.h")
